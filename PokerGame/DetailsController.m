@@ -5,6 +5,7 @@
 //  Created by James Steimel on 7/26/16.
 //  Copyright © 2016 James Steimel. All rights reserved.
 //
+//
 
 #import "DetailsController.h"
 #import <Foundation/Foundation.h>
