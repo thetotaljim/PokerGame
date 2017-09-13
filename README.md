@@ -21,13 +21,18 @@ To use this application, download the repository, and open in Xcode.
 
 ## Usage Example
 
-The game begins with a homepage where you select the difficulty level:
+The game begins with a homepage where you enter some personal information. You then move to the next view, where you select an avatar. 
 
-![Picture](https://github.com/thetotaljim/HMan/blob/master/Assets/hangmanHome.png)
+![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/PokerAvatar.png)
 
-Then you just play following normal hangman rules!
+Then you select a game and difficulty level.  You also have the option to view the instructions for both of the games included in the application.
 
-![Picture](https://github.com/thetotaljim/HMan/blob/master/Assets/hangman2.png)
+![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/PokerGameDifficulty.png)
+![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/PokerInstructionPage.png)
+
+When you either lose or win, you return to the game selection page, where your statistics from previous games are displayed.
+
+![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/GameResults.png)
 
 ## Contents 
 
