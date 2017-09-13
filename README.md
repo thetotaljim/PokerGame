@@ -36,28 +36,30 @@ When you either lose or win, you return to the game selection page, where your s
 
 ## Contents 
 
-Here is a list of the included files and their usage in this project (located in the main HMan folder):
-* Models
-  * ``` InitialModel.swift ```
-    * Used to determine the the user's selected difficulty 
-  * ``` GameModel.swift ```
-    * Here the game is played. Functions for selecting words and tracking the progress of each turn are included in this file.
-  * ``` FinalModel.swift ```
-    * This file displays the results of the game.
-  * ``` MyPropertyList.plist ```
-    * Contains the words to be guessed.
-* Views  
-  * ``` HangmanView.swift ```
-    * This file uses iOS Core Graphics to draw the hangman.
-  * ``` TitleView.swift ```
-    * Displays the home page of the application.
-* Controllers
-  * ``` InitialViewController.swift ```
-    * Handles user input of difficult level.
-  * ``` GameViewController.swift ```
-    * Controls letter selection and seques to initial and final views.
-  * ``` FinalViewController.swift ```
-    * This View handles how the results are displayed.
+Here is a list of the included files and their usage in this project (located in the main PokerGame folder):
+
+* ``` CardPlayer.h & CardPlayer.m ```
+  * Data structure used to hold player data.
+* ``` DetailsController.h & DetailsController.m ```
+  * Controller for the game, difficulty and instruction selection page.
+* ``` GameController.h & GameController.m ```
+  * Controller that handles the poker game.  Includes the function for checking hand rank.
+* ``` IconController.h & IconController.m ```
+  * Controller that handles icon selection.
+* ``` PGCard.h & PGCard.m ```
+  * Data structure used to hold card data.
+* ``` PGDeck.h & PGDeck.m ```
+  * Data structure to create a deck of PGCards.
+* ``` PokerInstructions.h & PokerInstructions.m ```
+  * Gives instructions to the poker game.
+* ``` ViewController.h & ViewController.m ```
+  * Controls first page where user inputs data before moving to the icon selection page.
+* ``` WarControllerViewController.h & WarControllerViewController.m ```
+  * This controller handles the War game.
+* ``` WarInstruction.h & WarInstructions.m ```
+  * Gives instructions to the War game. 
+* ``` .png files ```
+  * Image assests including icons, cards, cannon, money, and title.
  
 ## Meta
 
