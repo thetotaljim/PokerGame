@@ -6,7 +6,7 @@
 
 > This is a Poker/War Game Application written in Objective-C.  
 
-This project was developed using a test driven software development process. The file structure follows Apple's Model-View-Controller communication pattern.  
+This project's file structure follows Apple's Model-View-Controller communication pattern.  
 
 ![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/PokerHome.png)
 ![Picture](https://github.com/thetotaljim/PokerGame/blob/master/Assets/PokerPlayerWin.png)
